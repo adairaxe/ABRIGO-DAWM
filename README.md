@@ -8,6 +8,6 @@
   <li><a href="https://github.com/adairaxe/ABRIGO-DAWM/tree/main/Proyecto3">proyecto 3</a></li>
   <li><a href="https://github.com/adairaxe/ABRIGO-DAWM/tree/main/Proyecto4">proyecto 4</a></li>
 </ul>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fepymeonline.com%2Fmejores-bancos-de-imagenes-gratis%2F&psig=AOvVaw36KUN-WbjxvBD90rDKFqxB&ust=1665120356018000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNC2s-7uyvoCFQAAAAAdAAAAABAD.jpg">
+<img src="https://www.example.com/images/dinosaur.jpg">">
 
 
