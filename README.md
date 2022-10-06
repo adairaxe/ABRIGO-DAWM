@@ -1,8 +1,7 @@
 # ABRIGO-DAWM
 <h2>Repositorio de proyectos para la materia de Desarrollo de aplicaciones web y moviles</h2>
 <h3>Mi nombre es Adair Abrigo y mi usuario es adairaxe</h3>
-</a>El repositorio cuenta de cuatro carpetas en llas cuales hay 4 diferentes proyectos, dentro de ellas habrá mas detalles sobre lo realizado. Gracias por leer esto y espero te sea de interes y en el mejor de los casos te sirva.</a>
-<a name="adairaxe">Nombre</a>
+</p>El repositorio cuenta de cuatro carpetas en llas cuales hay 4 diferentes proyectos, dentro de ellas habrá mas detalles sobre lo realizado. Gracias por leer esto y espero te sea de interes y en el mejor de los casos te sirva.</p>
 <h3>Lista de proyectos</h3>
 <ul>
   <li><a href="https://github.com/adairaxe/ABRIGO-DAWM/tree/main/Proyecto1">proyecto 1</a></li>
