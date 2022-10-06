@@ -8,6 +8,6 @@
   <li><a href="https://github.com/adairaxe/ABRIGO-DAWM/tree/main/Proyecto3">proyecto 3</a></li>
   <li><a href="https://github.com/adairaxe/ABRIGO-DAWM/tree/main/Proyecto4">proyecto 4</a></li>
 </ul>
-<img src="https://i0.wp.com/www.imageneseducativas.com/wp-content/uploads/2018/08/Evaluaci%C3%B3n-inicial-Educaci%C3%B3n-Infantil-4-A%C3%91OS-2018-14.jpg?ssl=1">
+<img align="left" src="https://i0.wp.com/www.imageneseducativas.com/wp-content/uploads/2018/08/Evaluaci%C3%B3n-inicial-Educaci%C3%B3n-Infantil-4-A%C3%91OS-2018-14.jpg?ssl=1">
 
 
