@@ -1,0 +1,59 @@
+/**{outline: 1px solid red;}*/
+
+body{
+    color: grey;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+header,section, footer{
+    width: 960px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+header{
+    display: flex;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
+}
+
+section{
+    display: flex;
+    border-spacing: 10px;
+}
+
+h2{
+    color: black;
+}
+
+article{
+    width: 40%;
+}
+
+aside{
+    width: 60%;
+}
+
+table{
+    border: 4;
+}
+
+img{
+    width: 200px;
+    height: 200 px;
+    margin-right: 20px;
+    border-radius: 150px;
+}
+
+.datos_empresa{
+    line-height: 0px;
+    text-align: left
+}
+
+.bloques{
+    display: flex;
+}
