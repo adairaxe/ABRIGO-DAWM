@@ -1,4 +1,4 @@
-/**{outline: 1px solid red;}*/
+*{outline: 1px solid red;}
 
 body{
     color: grey;
@@ -19,6 +19,14 @@ header{
     font-style: bold;
     font-size: 20px;
     color: black;
+}
+
+.encabezado{
+    background-color: skyblue;
+    font-family: sans-serif;
+    font: arial;
+        display: block;
+    width: 100%;
 }
 
 section{
@@ -43,10 +51,10 @@ table{
 }
 
 img{
-    width: 200px;
-    height: 200 px;
+    width: 150px;
+    height: 50 px;
     margin-right: 20px;
-    border-radius: 150px;
+    border-radius: 9200px;
 }
 
 .datos_empresa{
