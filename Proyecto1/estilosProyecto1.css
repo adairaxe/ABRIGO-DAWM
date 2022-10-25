@@ -1,0 +1,116 @@
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* Styles */
+    * {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Play', sans-serif; 
+        font-size: 0.9rem;
+    }
+    
+    body h2{
+        2rem;
+        color:darkblue;
+    }
+    
+
+    
+    .MainContainer{
+        padding: 10px 15px;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    #PhotoAndName{
+        margin: 0px auto;
+        margin-top: 5px;
+        border: 1px 2px 1px 2px;
+        display: flex;
+    }
+    
+    #nameAndCarrer{
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+    
+    .encabezado{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #photoCurriculum {
+        border-left: 2px;
+        margin: 0px auto;
+        width: 50px;
+        height: 50px;
+        background-image: url(bart.png);
+        border-radius: 100px;
+    }
+    
+    #nameAndCarrer {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    
+    
+    
+    /*      BLOQUE SUPERIOR CONTACTO Y PROGRMACIÓN  */
+    
+    
+    /*  Bloque de contacto */
+    #contactAndSkills{
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    
+    ul{
+        list-style: none;
+        width: auto;
+        padding: 5px 0px;
+        color: black;}
+    
+    a{
+        color: black;
+        text-decoration: none;}
+    
+    /* Bloque de dominio de programación     */
+    table,th,td{
+        font-size: 0.8rem;
+        border-collapse: collapse;
+        border: 1px solid black;}
+    
+    
+    
+    /*      BLOQUE DE ESTUDIOS Y EXPERIENCIA*/
+    #studysAndExperience{
+        text-align: justify;
+        padding: 0px 10px;
+        margin-bottom: 15px;
+    }
+    
+    #studysAndExperience h3,h4{
+        margin: 0px;
+    }
+    
+    
+    
+    /*      FOOTER      */
+    footer{
+        padding: 0px 10px 0px 10px;
+    }
+    
+    #infoContact ul{
+        margin: 0px;
+    }
+    
+    #infoContact ul il{
+        margin: 2px;
+    }
+    
+    
+    
+    
+}
