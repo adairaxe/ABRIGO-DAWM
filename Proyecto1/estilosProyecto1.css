@@ -1,11 +1,19 @@
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-/* Styles */
+@media only screen and (min-device-width: 500px) and (max-device-width: 1920px){
     * {
         font-family: 'Montserrat', sans-serif;
         font-family: 'Play', sans-serif; 
-        font-size: 0.9rem;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    body{
+        
+    }
+    
+    #MainContainer{
+        margin: 0px auto;
+        width: 700px;
+        padding: 25px 50px;
     }
     
     body h2{
@@ -13,7 +21,115 @@
         color:darkblue;
     }
     
+    #studysAndExperience h3,h4{
+        margin: 0px;
+    }
+    
+    header{
+        display: flex;
+        width: 600px;
+    }
+    
+    #photoCurriculum {
+        display: inline-block;
+        margin: 0px;
+        width: 175px;
+        height: 125px;
+        background-image: url(bart.png);
+        border-radius: 100px;
+    }
+    
+    #nameAndCarrer{
+        background-color: skyblue;
+        display: inline-block;
+        width: 100%;
+        margin-left: 130px;
+    }
+    
+    .bodyContainer{
+        margin: 0px auto;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    /*      Bloque de la IZQUIERDA*/
+    #idiomas{
+        background-color:crimson;
+        grid-column: 1/3;
+        grid-row: 1/4;
+    }
+    
+    #software{
+        background-color:crimson;
+        grid-column: 1/3;
+        grid-row: 4/8;
+    }
+    
+    #programacion{
+        background-color:crimson;
+        grid-column: 1/3;
+        grid-row: 8/12;
+    }
+    
+    #perfil{
+        background-color:crimson;
+        grid-column: 1/3;
+        grid-row: 2/7;
+    }
+    
+    table,th,td{
+        font-size: 0.8rem;
+        border-collapse: collapse;
+        border: 1px solid black;}
+    
+    #habilidades{
+        grid-column: 1/3;
+        grid-row: 7/10;
+    }
+    
+    #studysAndExperience{
+        grid-column: 4/12;
+        grid-row: 1/12;
+    }
+    
+    footer{
+        padding-right: 30px;
+        padding-left: 0px;
+        margin: 20px 10px;
+    }
+    
+    footer h2{
+        text-align: center;
+    }
+    
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 499px) {
+/* Styles */
+    * {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Play', sans-serif; 
+        font-size: 0.9rem;
+    }
+    
+    #habilidades{
+        visibility: hidden;
+        opacity: 0;
+        margin: -55px;
+        padding: 0px;
+        border: 0px;
+    }
+    
+    body h2{
+        2rem;
+        color:darkblue;
+    }
     
     .MainContainer{
         padding: 10px 15px;
@@ -54,7 +170,6 @@
     }
     
     
-    
     /*      BLOQUE SUPERIOR CONTACTO Y PROGRMACIÓN  */
     
     
@@ -85,6 +200,12 @@
     
     
     /*      BLOQUE DE ESTUDIOS Y EXPERIENCIA*/
+    #perfil{
+        text-align: justify;
+        padding: 0px 10px;
+        margin-bottom: 15px;
+    }
+    
     #studysAndExperience{
         text-align: justify;
         padding: 0px 10px;
@@ -109,8 +230,5 @@
     #infoContact ul il{
         margin: 2px;
     }
-    
-    
-    
     
 }
