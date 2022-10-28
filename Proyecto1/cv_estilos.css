@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: deepskyblue;
+    background-color: white;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,15 +21,15 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1350px;
-    background-color: coral;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 50px;
 }
 
+/*#32ADE6*/
 .mainContainer .left_side{
     position: relative;
-    background-color: royalblue;
+    background-color: #32ADE6;
     padding: 40px;
     border: 1px solid black;
 }
@@ -103,13 +103,13 @@ body{
     list-style: none;
     text-decoration: none;
     margin: 10px 0px;
-    cursor: pointer;
 }
 .contactinfo ul li i{
     display: inline-block;
     color: skyblue;
     width: 30px;
 }
+
 
 /*      Block of studies     */
 .contactinfo.education li{
@@ -118,7 +118,7 @@ body{
 
 .contactinfo.education h5{
     margin-bottom: 10px;
-    color: skyblue;
+    color: black;
 }
 
 .contactinfo.education h4:nth-child(2){
@@ -147,3 +147,176 @@ body{
 
 
 
+/*      Block of languages      */
+.idiomas .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: skyblue;
+}
+.idiomas .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+}
+.idiomas > .box{
+    cursor: progress;
+    margin: 5px 0px;
+}
+
+
+
+/*      Block of profile an experience*/
+.right_side h2{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #2B92C2;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 125, 125, 0.5);
+}
+
+.mainContainer .right_side{
+    position: relative;
+    padding: 40px;
+}
+
+.aboutMe{
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.aboutMe p{
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.aboutMe p::first-letter{
+    font-weight: 1000;
+    color:dodgerblue;
+}
+.aboutMe p:hover{
+    color: darkviolet;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.experience .year_company{
+    min-width: 140px;
+    color: black;;
+}
+
+.experience h4{
+    padding-bottom: 10px;
+}
+.experience, h5{
+    font-weight: 300;
+}
+
+
+/*      Block of video and map     */
+.videoAndMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.videoAndMap .map{
+    box-shadow: 5px 5px 5px rgba(100, 100, 200, 0.25), 0 1px 2px rgba(250, 125, 100, 0.5);
+    max-height: 10rem;
+    max-width: 15rem;
+}
+
+.videoAndMap video{
+    box-shadow: 5px 5px 5px rgba(100, 100, 200, 0.25), 0 1px 2px rgba(250, 125, 100, 0.5);
+    max-height: 10rem;
+    max-width: 16rem;
+}
+
+
+/*      Block of Form       */
+.formulario *{
+    margin: 1px;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+}
+.formulario form button{
+    margin-top: 5px;
+}
+
+.formulario #mensaje{
+    resize: none;
+}
+
+
+@media (max-width: 900px){
+    .mainContainer{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left_side .contactinfo *{
+        align-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    
+    .idiomas .box .percent{
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px) or ((min-device-width: 200px) and (max-device-width: 700px)){
+    .mainContainer{
+        margin: 10px;
+        position: relative;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left_side .contactinfo *{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .aboutMe .experience{
+        flex-direction: column;
+    }
+    .videoAndMap{
+        flex-direction: column;
+    }
+    .videoAndMap *{
+        margin: 0px auto;
+    }
+    .formulario{
+        margin: 0px auto;
+        position: relative;
+        width: 250px;
+    }
+    .formulario *{
+        position: relative;
+        margin: 0px auto;
+    }
+    
+    .idiomas .box .percent{
+        width: 50%;
+    }
+    .videoAndMap *{
+        margin-bottom: 25px;
+    }
+    
+    .under_side{
+        position: relative;
+        background-color: #32ADE6;
+    }
+    .under_side h2{
+        color: white;
+    }
+    
+    
+}
