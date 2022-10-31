@@ -95,16 +95,18 @@ body{
     margin: 0px auto;
 }
 .contactinfo ul{
+    color: white;
     position: relative;
 }
 .contactinfo ul li,a{
+    color: white;
     position: relative;
-    color: black;
     list-style: none;
     text-decoration: none;
     margin: 10px 0px;
 }
 .contactinfo ul li i{
+    color: white;
     display: inline-block;
     color: skyblue;
     width: 30px;
@@ -112,22 +114,25 @@ body{
 
 
 /*      Block of studies     */
+.contactinfo .education h3,h4,h5{
+    color: white;
+}
 .contactinfo.education li{
     margin-bottom: 20px;
 }
 
 .contactinfo.education h5{
     margin-bottom: 10px;
-    color: black;
+    color: white;
 }
 
 .contactinfo.education h4:nth-child(2){
     margin-bottom: 5px;
-    color: black;
+    color: white;;
     font-weight: 800;
 }
 .contactinfo.education h4{
-    color: black;
+    color: white;
     font-weight: 300;
 }
 
@@ -137,6 +142,7 @@ body{
     align-items: center;
 }
 .contactinfo.programing table,th,td{
+    color: white;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -222,7 +228,7 @@ body{
 .videoAndMap{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 40px;
 }
 .videoAndMap .map{
@@ -274,9 +280,9 @@ body{
 
 @media (max-width: 700px) or ((min-device-width: 200px) and (max-device-width: 700px)){
     .mainContainer{
+        display: flex;
+        flex-direction: column;
         margin: 10px;
-        position: relative;
-        grid-template-columns: repeat(1, 1fr);
     }
     .left_side .contactinfo *{
         text-align: center;
