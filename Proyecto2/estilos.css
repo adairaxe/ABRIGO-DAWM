@@ -1,0 +1,5 @@
+.tarjeta *{
+    text-align: center;
+    align-items: center;
+    width: 500px !important;
+}
