@@ -295,7 +295,7 @@ const APPController = (function(UICtrl, APICtrl) {
         // load the track details
         UICtrl.createTrackDetail(track.album.images[2].url, track.name, track.artists[0].name);
         let trBarra = `td-${track.name}`
-        document.getElementById(trBarra).setAttribute("style", "background-color: green;");
+        document.getElementById(trBarra).setAttribute("style","border:1px; border-style:solid; border-color:#FF0000;padding:10px;");
         
     });
     
